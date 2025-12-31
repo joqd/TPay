@@ -1,7 +1,9 @@
 package main
 
-import "log"
+import (
+	"github.com/joqd/TPay/internal/bootstrap"
+)
 
 func main() {
-	log.Println("hello world")
+	bootstrap.Start()
 }
